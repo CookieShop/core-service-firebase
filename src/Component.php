@@ -33,5 +33,11 @@ class Command
     {
         $this->services = $services;
     }
+    
+    public function save($device)
+    {
+        var_dump($device);
+        exit;
+    }        
 }
 
